@@ -1,31 +1,36 @@
-Documentação do Sistema de Registro de Montagens 
+<h1>Documentação do Sistema de Registro de Montagens </h1>
 
-Descrição 
+<h4>Descrição</h4>
 
 Sistema de registro de montagens com funcionalidades de login, cadastro e gestão de montagens. O sistema permite filtrar montagens concluídas, pendentes e todas as montagens. 
 
 Tecnologias Utilizadas 
 
-Frontend 
+<h4>Frontend</h4>
 
-React: Framework para a interface do usuário. 
+<ul>
+<li>React: Framework para a interface do usuário. </li>
 
-Tailwindcss: Framework para estilização. 
+<li>Tailwindcss: Framework para estilização.</li>
 
-Axios: Biblioteca para consumir a API do backend. 
+<li>Axios: Biblioteca para consumir a API do backend.</li>
+</ul>
+<h4>Backend</h4> 
 
-Backend 
+<ul>
+<li>Node.js: Ambiente de execução para JavaScript no servidor. </li>
 
-Node.js: Ambiente de execução para JavaScript no servidor. 
+<li>Express: Framework para criação do servidor. </li>
 
-Express: Framework para criação do servidor. 
+<li>MySQL: Banco de dados relacional para armazenar as informações.</li> 
+</ul>
 
-MySQL: Banco de dados relacional para armazenar as informações. 
+<h4>Funcionalidades </h4>
 
-Funcionalidades 
+<ul>
+<li>Login conectado ao MySQL.</li> 
 
-Login conectado ao MySQL. 
+<li>CRUD completo para gerenciar montagens.</li> 
 
-CRUD completo para gerenciar montagens. 
-
-Filtros para exibir montagens concluídas, pendentes e todas.
+<li>Filtros para exibir montagens concluídas, pendentes e todas.</li>
+</ul>
