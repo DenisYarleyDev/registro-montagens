@@ -1,8 +1,31 @@
-# React + Vite
+Documentação do Sistema de Registro de Montagens 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descrição 
 
-Currently, two official plugins are available:
+Sistema de registro de montagens com funcionalidades de login, cadastro e gestão de montagens. O sistema permite filtrar montagens concluídas, pendentes e todas as montagens. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tecnologias Utilizadas 
+
+Frontend 
+
+React: Framework para a interface do usuário. 
+
+Tailwindcss: Framework para estilização. 
+
+Axios: Biblioteca para consumir a API do backend. 
+
+Backend 
+
+Node.js: Ambiente de execução para JavaScript no servidor. 
+
+Express: Framework para criação do servidor. 
+
+MySQL: Banco de dados relacional para armazenar as informações. 
+
+Funcionalidades 
+
+Login conectado ao MySQL. 
+
+CRUD completo para gerenciar montagens. 
+
+Filtros para exibir montagens concluídas, pendentes e todas.
